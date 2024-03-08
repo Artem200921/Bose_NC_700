@@ -1,2 +1,8 @@
-@import './common';
-@import './example';
+@import './base/_reset.scss';
+@import './utils/container';
+@import './components/burger-menu';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/reviews';
+@import './layout/faq';
+@import './layout/bose';
