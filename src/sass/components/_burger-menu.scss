@@ -22,6 +22,8 @@
   top: calc(50% + 5px);
 }
 .menu {
+  display: flex;
+  justify-content: center;
   position: fixed;
   top: 48px;
   left: 0;
@@ -52,11 +54,18 @@
   transform: translate(-50%, 0%) rotate(-45deg);
 }
 
+.menu__nav {
+  width: 452px;
+}
+
 @media screen and (min-width: 768px) {
   .menu {
     box-shadow: 0px 20px 80px 0px #191919;
     height: auto;
     padding-bottom: 100px;
+  }
+  .menu__nav {
+    width: 610px;
   }
 }
 
