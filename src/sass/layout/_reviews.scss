@@ -103,14 +103,6 @@
 .reviews__wrapper {
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 320px) {
-    & {
-    }
-  }
-  @media screen and (min-width: 768px) {
-    & {
-    }
-  }
   @media screen and (min-width: 1440px) {
     & {
       height: 560px;
@@ -162,10 +154,6 @@
 .reviews__list {
   display: flex;
   column-gap: 14px;
-  @media screen and (min-width: 1440px) {
-    & {
-    }
-  }
 }
 .reviews__item {
   display: flex;
