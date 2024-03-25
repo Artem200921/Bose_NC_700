@@ -1,6 +1,16 @@
 .faq {
   background: #191919;
   padding-top: 16px;
+  @media screen and (min-width: 768px) {
+    & {
+      padding-top: 100px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    & {
+      padding-top: 170px;
+    }
+  }
 }
 
 .faq__wrap {
