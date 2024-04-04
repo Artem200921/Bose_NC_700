@@ -1,2 +1,0 @@
-var slider=document.querySelector(".slider"),isHovering=!1;function nextSlide(){if(!isHovering){var e=slider.children[0];slider.style.transition="transform 0.5s ease",slider.style.transform="translateX(-100%)",setTimeout((function(){slider.appendChild(e),slider.style.transition="none",slider.style.transform="translateX(0)"}),500)}}slider.addEventListener("mouseover",(function(){isHovering=!0})),slider.addEventListener("mouseout",(function(){isHovering=!1})),setInterval(nextSlide,5e3);
-//# sourceMappingURL=index.6df5a3d7.js.map
