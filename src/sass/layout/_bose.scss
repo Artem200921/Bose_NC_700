@@ -1,0 +1,30 @@
+.bose {
+  background: #191919;
+}
+.bose__slider {
+  width: 768px !important;
+}
+
+.bose__arrow {
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bose-button__element  {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 1);
+  outline: 5px solid rgba(29, 29, 29, 1);
+}
+
+.bose__arrow:active .bose-button__element {
+  border: 2px solid #ff0000;
+}
