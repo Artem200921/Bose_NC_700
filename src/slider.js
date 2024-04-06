@@ -23,3 +23,17 @@ function nextSlide() {
 }
 
 setInterval(nextSlide, 5000);
+
+document.addEventListener('DOMContentLoaded', function () {
+  new Splide('#bose__slider', {
+    classes: {
+      arrows: 'splide__arrows bose-arrows__wrap',
+      arrow: 'splide__arrow bose-arrow',
+      prev: 'splide__arrow--prev bose-arrow--prev',
+      next: 'splide__arrow--next bose-arrow--next',
+    },
+    heightRatio: 0.5,
+    pagination: false,
+    rewind: false,
+  }).mount();
+});
