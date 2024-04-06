@@ -34,6 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     heightRatio: 0.5,
     pagination: false,
-    rewind: true,
+    rewind: false,
   }).mount();
 });
