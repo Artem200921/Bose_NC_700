@@ -1,5 +1,6 @@
 .capable_section {
   background-color: #191919;
+  padding-top: 52px;
 }
 .center-capable-div {
   display: flex;
@@ -61,6 +62,9 @@
     }
 }
 @media screen and (min-width: 768px) {
+  .capable_section{
+    padding-top: 128px;
+  }
   .title_capable_center{
     width: 100%;
   }
@@ -76,6 +80,9 @@
 }
 }
 @media screen and (min-width: 1440px) {
+  .capable_section{
+    padding-top: 170px;
+  }
   .title_capable_center{
     // width: 100%;
   }
@@ -93,7 +100,7 @@
   }
   .capable-item{
     font-size: 20px;
-    width: 394px;
+    width: 431px;
   }
 
   // .capable-item:nth-child(n + 4){
