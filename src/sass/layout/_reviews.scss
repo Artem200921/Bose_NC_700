@@ -4,6 +4,16 @@
   padding-top: 52px;
   justify-content: center;
   display: flex;
+  @media screen and (min-width: 768px) {
+    & {
+    padding-top: 100px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    & {
+     padding-top: 170px;
+    }
+  }
 }
 .slide {
   display: flex;
